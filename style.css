@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+    background-color: #161625 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    margin-top: 10vh;
+    margin-left: 17vw;
+    height: 80vh;
+    width: 66vw;
+    background-color: #1a1b2b ;
+    border-radius: 30px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20vh 80vh;
+    grid-template-areas: "titulo titulo"
+                        "ano campeao"
+}
+.titulo{
+    
+    font-size: 20px;
+    border-bottom: 5px solid #161625  ;
+    text-align: center;
+    padding-top: 70px;
+    grid-area: titulo;
+}
+
+.campeao{
+    height: 300px;
+    width: 310px;
+    background-color: #fff;
+    border-radius: 30px;
+    
+    margin-left: 10vw;
+    margin-top: 10vh;
+    grid-area: campeao;
+}
+#foto{
+    height: 70%;
+    margin-top: 35px;
+    margin-left: 50px;
+
+}
+.ano{
+    margin-top: 5vh;
+    height: 40vh;
+    margin-left: 10vw;
+    background-color: ;
+    grid-area: ano
+}
+#opcoes{
+    margin-top: 7vh;
+    border-radius: 80px;
+    border: 2px solid #464647;
+    cur
+}
+
