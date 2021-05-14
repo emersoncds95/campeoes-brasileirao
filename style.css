@@ -9,8 +9,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container{
-    margin-top: 10vh;
-    margin-left: 17vw;
+    margin: 10vh auto ;
     height: 80vh;
     width: 66vw;
     background-color: #1a1b2b ;
@@ -57,6 +56,5 @@ body{
     margin-top: 7vh;
     border-radius: 80px;
     border: 2px solid #464647;
-    cur
 }
 
