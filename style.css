@@ -34,15 +34,15 @@ body{
     width: 310px;
     background-color: #fff;
     border-radius: 30px;
-    
+    text-align: center;
     margin-left: 10vw;
     margin-top: 10vh;
     grid-area: campeao;
 }
 #foto{
-    height: 70%;
-    margin-top: 35px;
-    margin-left: 50px;
+    height: 250px;
+    margin-top: 25px;
+    
 
 }
 .ano{
